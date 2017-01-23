@@ -2,6 +2,7 @@
 <html lang="zh">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="${basePath}/public/css/index.css">
 	<title>freemarker</title>
 </head>
 <body>

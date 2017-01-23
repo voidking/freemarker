@@ -30,7 +30,8 @@ public class GetFreeMarker extends HttpServlet{
         Template template=config.getTemplate("index.ftl"); 
         
         //创建数据模型  
-        Map<String,String> map=new HashMap<String,String>();  
+        Map<String,String> map=new HashMap<String,String>();
+        map.put("basePath", req.getContextPath());
         map.put("name", "郝锦"); 
         
         res.setCharacterEncoding("utf8");
